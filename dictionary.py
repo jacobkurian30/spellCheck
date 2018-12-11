@@ -1,4 +1,4 @@
-# Tutorial
+# Jacob Kurian : Tutorial
 # This program will go through the a list of dictionaries and spit out all
 # the possible valid words for a typo
 
@@ -19,16 +19,18 @@ class Dictionary:
             
         valid = 'yes'
         while(valid.lower() == 'yes'):
-            word=input('Please Enter data : ')
+            word=input('Please Enter your word : ')
             wordGen =[]
                 
             #checking words exit in the list ()  
             if word.lower() in english_words:
-                print('Word exist')
+                print('Word exist in the dictionary (or list)')
             else:
                self.checkWordInDictionary(word, english_words)
             
             valid = self.getExitValue()
+        print('Program Ends....')
+    #---------------End of the main funtion ------------------------------
             
     #check the program should exist or not
     def getExitValue(self):
