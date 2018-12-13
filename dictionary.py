@@ -6,11 +6,12 @@ import itertools, time
 
 class Dictionary:
 
-    def _init_(self):
+    def __init__(self):
         print('Initializing..')
+        print('@Copyrights Jacob Kurian')
+        print('Use for reference only')
     
     def main(self):
-        print('Program Begin...')
         #opening the text file and create a collection of all the words in the file
         # (lower case) it , we called it ' english_words'. Text file has 10000 words 
         with open("list.txt") as word_file:
