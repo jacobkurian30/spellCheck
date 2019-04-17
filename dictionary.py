@@ -1,6 +1,6 @@
 # Jacob Kurian : Tutorial
 # This program will go through the a list of dictionaries and spit out all
-# the possible valid words for a typo
+# the possible valid words for a typo.
 
 import itertools, time
 
